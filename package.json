@@ -4,6 +4,8 @@
   "private": true,
   "description": "",
   "scripts": {},
-  "dependencies": {},
+  "dependencies": {
+    "tesseract.js": "^6.0.1"
+  },
   "devDependencies": {}
 }
