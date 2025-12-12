@@ -23,9 +23,8 @@ export function parse(file: File) {
   if (!Parser) {
     return undefined
   }
-  const parser = new Parser(file)
-  parser.encode().then((_doc) => {
-    // window.doc1 = _doc
-  })
-  return parser.encode()
+  // call static encode on the parser class
+  const res = Parser.encode(file)
+  // res.then((_doc) => { /* window.doc1 = _doc */ })
+  return res
 }
