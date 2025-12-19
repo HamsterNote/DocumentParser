@@ -1,11 +1,12 @@
+import { HamsterDocument } from '../Document'
 import { IntermediateDocument } from '@src/types/common/HamsterDocument'
 
 export class DocumentParser {
-  static ext: string
+  static readonly ext: string
   // Base static methods to be overridden by concrete parsers
   static async encode(
     _file: File | ArrayBuffer
-  ): Promise<IntermediateDocument | undefined> {
+  ): Promise<IntermediateDocument | HamsterDocument | undefined> {
     return Promise.resolve(undefined)
   }
   static async decode(
