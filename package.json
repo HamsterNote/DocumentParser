@@ -3,7 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "description": "",
-  "scripts": {},
+  "scripts": {
+    "build:all": "tsc && tsc-alias",
+    "test": "echo 'no-test'"
+  },
   "dependencies": {
     "tesseract.js": "^6.0.1"
   },
