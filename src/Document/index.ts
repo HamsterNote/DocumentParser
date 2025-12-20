@@ -1,5 +1,5 @@
-import { HamsterPage } from '@DocumentParser'
-import { IntermediateOutline } from '@src/types/common/HamsterDocument'
+import { HamsterPage } from '../Page'
+import { IntermediateOutline } from '@hamster-note/types'
 
 export abstract class HamsterDocument {
   // 获取 Page 对象列表

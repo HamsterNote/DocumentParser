@@ -1,5 +1,5 @@
 // 文档锚（标记了文字id）
-import { Number2 } from '@math'
+import { Number2 } from '@hamster-note/types'
 
 export interface DocumentAnchorWithTextId {
   pageId: string

@@ -1,5 +1,5 @@
 import { HamsterDocument } from '../Document'
-import { IntermediateDocument } from '@src/types/common/HamsterDocument'
+import { IntermediateDocument } from '@hamster-note/types'
 
 export class DocumentParser {
   static readonly ext: string

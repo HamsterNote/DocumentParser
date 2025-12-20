@@ -1,4 +1,4 @@
-import { DocumentParser } from '@DocumentParser'
+import { DocumentParser } from '../Parser'
 
 // Store constructors (classes), not instances
 const parserMap: Map<string, typeof DocumentParser> = new Map()

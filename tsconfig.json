@@ -1,4 +1,3 @@
 {
-  "extends": "@system-ui-js/development-base/tsconfig.json",
-  "exclude": ["vite.config.ts"]
+  "extends": "@system-ui-js/development-base/tsconfig.json"
 }
