@@ -1,7 +1,7 @@
 {
   "extends": "./tsconfig.json",
   "compilerOptions": {
-    "module": "ESNext",
+    "module": "NodeNext",
     "target": "ES2018",
     "outDir": "./dist",
     "declaration": true,
@@ -9,7 +9,7 @@
     "sourceMap": true,
     "noEmit": false,
     "emitDeclarationOnly": false,
-    "moduleResolution": "Node",
+    "moduleResolution": "NodeNext",
     "allowImportingTsExtensions": false,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true

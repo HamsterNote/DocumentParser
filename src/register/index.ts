@@ -1,4 +1,4 @@
-import type { DocumentParser, ParserInput } from '../Parser'
+import type { DocumentParser, ParserInput } from '../Parser/index.js'
 import type { IntermediateDocument } from '@hamster-note/types'
 
 export interface DocumentParserConstructor<
