@@ -5,7 +5,8 @@
   "scripts": {
     "build:all": "tsc -p tsconfig.build.json",
     "prepublishOnly": "yarn build:all",
-    "test": "echo 'no-test'"
+    "test": "echo 'no-test'",
+    "lint": "echo 'no-lint"
   },
   "dependencies": {
     "@hamster-note/types": "^0.2.0"
