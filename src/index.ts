@@ -1,3 +1,3 @@
-export * from './types/DocumentAnchor.js'
-export * from './Parser/index.js'
-export * from './register/index.js'
+export * from './types/DocumentAnchor'
+export * from './Parser/index'
+export * from './register/index'
