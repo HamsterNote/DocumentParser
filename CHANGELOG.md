@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [UnReleased]
 
+## [0.3.0] - 2026-01-05
+
 ### Fixed
 - 修复有一些文件没有导出的问题
 
