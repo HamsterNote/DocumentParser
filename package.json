@@ -1,6 +1,6 @@
 {
   "name": "@hamster-note/document-parser",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "",
   "scripts": {
     "build:all": "rolldown --config rolldown.config.ts",
@@ -8,10 +8,12 @@
     "test": "echo 'no-test'",
     "lint": "echo 'no-lint'"
   },
-  "dependencies": {
+  "dependencies": {},
+  "peerDependencies": {
     "@hamster-note/types": "^0.5.1"
   },
   "devDependencies": {
+    "@hamster-note/types": "^0.5.1",
     "@eslint/js": "^9.39.2",
     "rolldown": "^1.0.0-beta.58",
     "rolldown-plugin-dts": "^0.20.0",
@@ -38,6 +40,8 @@
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
+      "require": "./dist/index.js",
+      "default": "./dist/index.js",
       "import": "./dist/index.js"
     }
   },
