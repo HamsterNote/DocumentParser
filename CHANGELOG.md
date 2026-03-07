@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [UnReleased]
 
+### Changed
+- 将版本号提升到 `0.3.1`
+- 调整包导出字段，补充 `require` 与 `default` 入口
+- 将 `@hamster-note/types` 调整为 peerDependencies 并保留 devDependencies 用于本地开发
+
+### Added
+- 新增 `index.ts` 顶层导出入口
+- 新增 `tsconfig.build.json` 作为构建用 TypeScript 配置
+
 ## [0.3.0] - 2026-01-05
 
 ### Fixed
