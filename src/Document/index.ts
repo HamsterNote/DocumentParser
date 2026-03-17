@@ -1,5 +1,5 @@
 import { HamsterPage } from '../Page'
-import { IntermediateOutline } from '@hamster-note/types'
+import type { IntermediateOutline } from '@hamster-note/types'
 
 export abstract class HamsterDocument {
   abstract getPages(): Promise<HamsterPage[]>

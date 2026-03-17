@@ -1,4 +1,4 @@
-import { Number2 } from '@hamster-note/types'
+import type { Number2 } from '@hamster-note/types'
 
 export enum RenderViews {
   THUMBNAIL = 'thumbnail',
