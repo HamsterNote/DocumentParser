@@ -47,6 +47,12 @@ jobs:
           echo "Package version: $PKG_VERSION"
           echo "Publish tag: $PUBLISH_TAG"
 
+          # 验证分支版本与 package.json 版本一致
+          if [[ "$VERSION" != "$PKG_VERSION" ]]; then
+            echo "::error::Branch version ($VERSION) does not match package.json version ($PKG_VERSION)"
+            exit 1
+          fi
+
       # 安装 Node，并配置 npm registry（用于 npm publish 鉴权）
       - name: Setup Node.js
         uses: actions/setup-node@v4
